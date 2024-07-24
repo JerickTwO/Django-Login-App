@@ -1,1 +1,1 @@
-web: python manage.py migrate && python manage.py collectstatic --noinput && gunicorn djangocrud.wsgi 
+web: python manage.py migrate && gunicorn djangocrud.wsgi 
